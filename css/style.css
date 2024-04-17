@@ -1,0 +1,78 @@
+:root {
+  --color1: white;
+  --color2: Lightgray;
+  --color3: hsl(220, 15%, 55%);
+  --color4: Darkblue;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: var(--color4);
+}
+
+a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+h1,
+p,
+a {
+  font-family: outfit;
+}
+
+p {
+  font-size: 15px;
+  color: var(--color2);
+}
+
+div.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 15%;
+  background-color: white;
+}
+
+img {
+  border-radius: 10px;
+  width: 288px;
+  height: 288px;
+  margin-top: -5px;
+}
+
+h1 {
+  color: #1f314f;
+  font-size: 22px;
+  font-family: Outfit;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 25px;
+}
+
+p {
+  color: #7d889e;
+  font-size: 15px;
+  font-family: Outfit;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media (max-width="375px") {
+  body {
+    max-width: 375px;
+  }
+
+  table {
+    width: 250px;
+  }
+}
