@@ -67,6 +67,20 @@ p {
   margin-top: 0px;
 }
 
+style {
+    display: none;
+}
+:root {
+    --color1: white;
+    --color2: Lightgray;
+    --color3: hsl(220, 15%, 55%);
+    --color4: Darkblue;
+}
+
+:host, :root {
+    --rem: 16;
+}
+
 @media (max-width="375px") {
   body {
     max-width: 375px;
